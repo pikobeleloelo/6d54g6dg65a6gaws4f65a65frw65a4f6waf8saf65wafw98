@@ -24,6 +24,9 @@
                     <li>@Html.ActionLink("Strona główna", "Index", "Home")</li>
                     <li>@Html.ActionLink("Informacje", "About", "Home")</li>
                     <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("DB", "Index", "Base")</li>
+                    <li>@Html.ActionLink("DB Add", "Add", "Base")</li>
+                    <li>@Html.ActionLink("DB Edit", "Edit", "Base")</li>
                 </ul>
             </div>
         </div>
@@ -32,7 +35,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year — moja aplikacja platformy ASP.NET</p>
+            <p>&copy; @DateTime.Now.Year — DB w AP.NET</p>
         </footer>
     </div>
 
