@@ -98,3 +98,11 @@ C:\Users\kkonopka\documents\visual studio 2017\Projects\WebApplication4\WebAppli
 C:\Users\kkonopka\documents\visual studio 2017\Projects\WebApplication4\WebApplication4\bin\System.Diagnostics.DiagnosticSource.dll
 C:\Users\kkonopka\documents\visual studio 2017\Projects\WebApplication4\WebApplication4\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\kkonopka\documents\visual studio 2017\Projects\WebApplication4\WebApplication4\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\kkonopka\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\EntityFramework.dll
+C:\Users\kkonopka\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\EntityFramework.SqlServer.dll
+C:\Users\kkonopka\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\EntityFramework.xml
+C:\Users\kkonopka\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\EntityFramework.SqlServer.xml
+C:\Users\kkonopka\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\WebApplication4.Migrations.InitialCreate.resources
+C:\Users\kkonopka\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\WebApplication4.csproj.GenerateResource.Cache
+C:\Users\kkonopka\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\WebApplication4.Migrations.InitialCreate1.resources
+C:\Users\kkonopka\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\WebApplication4.Migrations.InitialCreate2.resources

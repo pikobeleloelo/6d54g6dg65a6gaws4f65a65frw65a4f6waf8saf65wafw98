@@ -13,13 +13,13 @@ namespace WebApplication4
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapMvcAttributeRoutes();
-         // routes.MapRoute(
-         //     "BaseByRelasesDate",
-         //     "base/relased/{year}/{month}",
-         //     new { controller = "Base", action = "ByRelasesDate" },
-         //     new { year = @"\d{4}", month = @"\d{2}"}
-         //     );
+            //routes.MapMvcAttributeRoutes();
+          routes.MapRoute(
+              "BaseByRelasesDate",
+              "base/relased/{year}/{month}",
+              new { controller = "Base", action = "ByRelasesDate" },
+              new { year = @"\d{4}", month = @"\d{2}"}
+              );
 
             routes.MapRoute(
                 name: "Default",

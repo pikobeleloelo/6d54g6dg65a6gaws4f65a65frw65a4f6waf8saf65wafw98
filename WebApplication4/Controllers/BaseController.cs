@@ -21,7 +21,7 @@ namespace WebApplication4.Controllers
             return Content(String.Format("pageIndex={0}&sortBy={1}", pageIndex, sortBy));
         }
 
-        [Route("base/relased/{year}/{month:regex(\\d{4}):rage(1,12)}")]
+        [Route("Base/relased/{year}/{month:regex(\\d{4}):rage(1,12)}")]
         public ActionResult ByRelasesYear(int year, int month)
         {
 
@@ -36,10 +36,23 @@ namespace WebApplication4.Controllers
 
         public ActionResult Add()
         {
-            var add = new Base() { Name = "Dodawanie rekordu " };
-            ViewResult.ViewData.Model
+            var add = new Base() { Name = "Dodawanie rekordu ;)" };
 
-            return View(add);
+            //  ViewData["Base"] = add;
+            //ViewBag.BaseAdd = add;
+            var customers = new List<Customer>
+            {
+                new Customer { Name = "Komputer 1"},
+                new Customer { Name = "Komuter 2"}
+            };
+
+            var viewModel = new ViewModels.AddBaseViewModel
+            {
+                Base = add,
+                Customers = customers
+            };
+
+            return View(viewModel);
         }
 
 
